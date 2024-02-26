@@ -1,0 +1,18 @@
+[debug] [2024-02-26T18:38:46.612Z] ----------------------------------------------------------------------
+[debug] [2024-02-26T18:38:46.614Z] Command:       /Users/admin/.nvm/versions/node/v18.17.1/bin/node /Users/admin/github/vue-advantages/firebase/node_modules/.bin/firebase login
+[debug] [2024-02-26T18:38:46.614Z] CLI Version:   13.3.1
+[debug] [2024-02-26T18:38:46.615Z] Platform:      darwin
+[debug] [2024-02-26T18:38:46.616Z] Node Version:  v18.17.1
+[debug] [2024-02-26T18:38:46.621Z] Time:          Mon Feb 26 2024 21:38:46 GMT+0300 (GMT+03:00)
+[debug] [2024-02-26T18:38:46.621Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-26T18:38:46.627Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-02-26T18:38:47.178Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-02-26T18:38:47.183Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=316116158&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
