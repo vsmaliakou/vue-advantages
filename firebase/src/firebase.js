@@ -1,14 +1,15 @@
 import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 import { onUnmounted, ref } from 'vue'
+import env from '@/env'
 
 const config = {
-  apiKey: 'AIzaSyDnQwb40R-256VoJlzPNkCX5Phuz8nVWLM',
-  authDomain: 'vue-firebase-c9e7c.firebaseapp.com',
-  projectId: 'vue-firebase-c9e7c',
-  storageBucket: 'vue-firebase-c9e7c.appspot.com',
-  messagingSenderId: '616180271734',
-  appId: '1:616180271734:web:2b94d6b112a05894afad57'
+  apiKey: env.apiKey,
+  authDomain: env.authDomain,
+  projectId: env.projectId,
+  storageBucket: env.storageBucket,
+  messagingSenderId: env.messagingSenderId,
+  appId: env.appId
 }
 
 const firebaseApp = firebase.initializeApp(config)
